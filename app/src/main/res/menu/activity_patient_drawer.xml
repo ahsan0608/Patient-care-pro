@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_homePatient"
+            android:icon="@drawable/ic_home_black_24dp"
+            android:title="@string/menu_home" />
+        <item
+            android:id="@+id/nav_patientDataPatient"
+            android:icon="@drawable/ic_assignment_black_24dp"
+            android:title="@string/menu_gallery" />
+        <item
+            android:id="@+id/nav_patientProfilePatient"
+            android:icon="@drawable/ic_person_black_24dp"
+            android:title="Profile" />
+        <item
+            android:id="@+id/nav_updatePatientCondition"
+            android:icon="@drawable/ic_update_black_24dp"
+            android:title="Update Condition" />
+        <item
+            android:id="@+id/nav_editDataPatient"
+            android:icon="@drawable/ic_edit_black_24dp"
+            android:title="@string/menu_editNum" />
+    </group>
+
+    <item android:title="Action">
+        <menu>
+            <item
+                android:id="@+id/nav_share"
+                android:icon="@drawable/ic_power_settings_new_black_24dp"
+                android:title="@string/menu_share" />
+        </menu>
+    </item>
+
+</menu>

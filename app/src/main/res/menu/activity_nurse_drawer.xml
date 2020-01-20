@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_homeNurse"
+            android:icon="@drawable/ic_home_black_24dp"
+            android:title="@string/menu_home" />
+        <item
+            android:id="@+id/nav_patientDataNurse"
+            android:icon="@drawable/ic_assignment_black_24dp"
+            android:title="@string/menu_gallery" />
+        <item
+            android:id="@+id/nav_patientLocationNurse"
+            android:icon="@drawable/ic_location_on_black_24dp"
+            android:title="@string/menu_patientLocationNurse" />
+        <item
+            android:id="@+id/nav_aboutPatientNurse"
+            android:icon="@drawable/ic_person_black_24dp"
+            android:title="@string/menu_aboutPatient" />
+    </group>
+
+    <item android:title="Action">
+        <menu>
+            <item
+                android:id="@+id/nav_changeAcc"
+                android:icon="@drawable/ic_replay_black_24dp"
+                android:title="@string/menu_shareNurse" />
+        </menu>
+    </item>
+
+</menu>

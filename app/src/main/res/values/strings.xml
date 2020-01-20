@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">Elder Care</string>
+    <string name="title_activity_patient">Patient</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Elder Care</string>
+    <string name="nav_header_subtitle">Developed by Ahsan</string>
+    <string name="nav_header_desc">Navigation header</string>
+
+    <!--    <string name="action_settings">Settings</string>-->
+    <string name="menu_home">Home</string>
+    <string name="menu_gallery">Patient Data</string>
+    <string name="menu_patientLocationNurse">Patient location</string>
+    <string name="menu_aboutPatient">Patient profile</string>
+    <string name="menu_share">Log out</string>
+    <string name="menu_shareNurse">Change Account</string>
+    <string name="menu_send">Send</string>
+    <string name="title_activity_nurse">Nurse</string>
+    <string name="title_activity_nurse_map">Map</string>
+    <string name="menu_editNum">Edit contact</string>
+    <string name="maleButton">Male</string>
+    <string name="femaleButton">Female</string>
+</resources>
